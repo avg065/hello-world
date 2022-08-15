@@ -1,0 +1,47 @@
+.textblock {
+    border: 3px solid #b12222;
+    /* box-shadow: 0px 3px 10px #302c2050; */
+    margin: auto;
+    /* border-radius: 1rem; */
+    width: 400px;
+    padding: 40px; /* Поля вокруг текста */
+    background: #B2D235; /* Цвет фона */
+    height: 300px;
+    outline: 2px solid #1657cf; /* Параметры рамки */
+    outline-offset: -20px; 
+}
+.tbl1 {
+    border-collapse: collapse;
+    background-color: antiquewhite;
+    width: 80%;
+    /* padding: 10px auto; */
+    margin: 1em auto;
+}
+.tbl1 td,
+.tbl1 th {
+    border: 2px solid #ffffff;
+    padding: 0.5em;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.list ul {
+    width: 75%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.list li {
+    background-color: #88612f;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 2px;
+}
+.list li:first-child {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.list li:last-child {
+    border-radius: 0 0 00.5rem 0.5rem;
+}
